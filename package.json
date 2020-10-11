@@ -1,0 +1,27 @@
+{
+  "name": "mongoose-admin-panel-example",
+  "version": "1.0.0",
+  "description": "Example project for mongoose-admin-panel",
+  "main": "index.js",
+  "scripts": {
+    "backend": "node ./backend/index.js",
+    "frontend": "node ./backend/frontend.js",
+    "build": "cd ./frontend; npm run init; npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuantumGlitch/mongoose-admin-panel-example.git"
+  },
+  "keywords": [
+    "example",
+    "mongoose",
+    "admin",
+    "panel"
+  ],
+  "author": "QuantumGlitch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QuantumGlitch/mongoose-admin-panel-example/issues"
+  },
+  "homepage": "https://github.com/QuantumGlitch/mongoose-admin-panel-example#readme"
+}

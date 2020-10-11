@@ -1,0 +1,59 @@
+#root .pro-sidebar .pro-sidebar-inner .pro-sidebar-header {
+  background: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #f2f4f9;
+  box-shadow: 3px 0 10px 0 rgba(183, 192, 206, 0.2);
+}
+
+#root .pro-sidebar .pro-sidebar-inner {
+  background: var(--light);
+}
+
+#root .pro-sidebar .pro-menu .pro-menu-item .react-slidedown.pro-inner-list-item {
+  background: var(--light);
+}
+
+#root .pro-sidebar .pro-sidebar-inner .pro-sidebar-header img {
+  margin: auto;
+  height: 40px;
+}
+
+pro-sidebar-header
+  #root
+  .pro-sidebar
+  .pro-menu.shaped
+  .pro-menu-item
+  > .pro-inner-item
+  > .pro-icon-wrapper {
+  background: none;
+}
+
+#root
+  .pro-sidebar
+  .pro-menu
+  .pro-menu-item.pro-sub-menu
+  .pro-inner-list-item
+  .pro-inner-item
+  > .pro-icon-wrapper {
+  display: inline-block !important;
+}
+
+#root
+  .pro-sidebar
+  .pro-menu
+  .pro-menu-item.pro-sub-menu
+  .pro-inner-list-item
+  .pro-inner-item:before {
+  display: none;
+}
+
+#root .pro-sidebar .pro-menu .pro-menu-item:hover > .pro-inner-item > .pro-item-content,
+#root .pro-sidebar .pro-menu .pro-menu-item.active > .pro-inner-item > .pro-icon-wrapper,
+#root .pro-sidebar .pro-menu .pro-menu-item:hover > .pro-inner-item > .pro-icon-wrapper,
+#root .pro-sidebar .pro-menu .pro-menu-item.active > .pro-inner-item > .pro-item-content > a,
+#root .pro-sidebar .pro-menu .pro-menu-item:hover > .pro-inner-item > .pro-item-content > a {
+  color: var(--primary) !important;
+}
