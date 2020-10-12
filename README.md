@@ -345,8 +345,8 @@ The following are the standard forms:
 
 ### Custom Forms
 
-If you want to define a new kind of form, then you need to create a new directory **backend/core/forms/<new-form-name>** always containing a **Form.js** file that exports the form in question.
-This form will be accessible by the url **form/<new-form-name>**.
+If you want to define a new kind of form, then you need to create a new directory **backend/core/forms/{new-form-name}** always containing a **Form.js** file that exports the form in question.
+This form will be accessible by the url **form/{new-form-name}**.
 For example in this project you can find **/core/forms/manufacturer/Form.js**. By default the standard form **ConstrainedForm** is not accessible by url so let's look into manufacturer.
 
 ```js
