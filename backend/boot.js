@@ -7,7 +7,7 @@ module.exports = async function () {
   // Async: Initialize database (default models and default data)
   await require('mongoose-admin-panel-backend')();
 
-  // Setup menu
+  //#region Menu Setup
   await Menu.updateOne(
     { _id: 1 },
     {
@@ -48,4 +48,5 @@ module.exports = async function () {
     },
     { upsert: true }
   );
+  ////#endregion
 };

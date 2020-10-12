@@ -3,7 +3,7 @@ const path = require('path');
 // BackEnd main configuration script
 const configuration = require('mongoose-admin-panel-backend/configuration');
 
-// Extends the use schema
+// Extends the user schema
 configuration.setUserSchemaExtension({
   name: {
     type: 'String',

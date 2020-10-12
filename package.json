@@ -6,7 +6,9 @@
   "scripts": {
     "backend": "node ./backend/index.js",
     "frontend": "node ./backend/frontend.js",
-    "build": "cd ./frontend; npm run init; npm run build"
+    "install": "cd ./frontend; npm install; cd ../backend; npm install",
+    "build": "cd ./frontend; npm run init; npm run build",
+    "init": "cd ./frontend; npm run init"
   },
   "repository": {
     "type": "git",
