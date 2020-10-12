@@ -18,8 +18,7 @@ Few examples from ![Screenshot 0](./screenshots/0.png) ![Screenshot 1](./screens
 git clone https://github.com/QuantumGlitch/mongoose-admin-panel-example.git
 ```
 
-2. Install
-   Open the downloaded directory and execute
+2. Install - Open the downloaded directory and execute
 
 ```shell
 npm run install
